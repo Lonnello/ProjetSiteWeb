@@ -1,0 +1,102 @@
+
+
+.menu
+{
+	display: flex; /*Transformation en flexbox*/
+	padding: 0; /*Suppresion des marges internes*/
+	background-color: ; /*Ajout de la couleur d'arriere plan*/
+}
+.menu li
+{
+	list-style-type: none; /*Suppresion des puces*/
+}
+/*Dimensions des liens*/
+.menu a
+{
+	display: block; /*Transformation en block*/
+	min-width: 120px; /*Largeur minimale des liens*/
+}
+/*Mise en forme des boutons*/
+.menu a
+{
+	display: block; /*Transformation en block*/
+	min-width: 120px; /*Largeur minimale des liens*/
+	margin: 0.5rem; /*Marges externes (1 valeur = 4 directions*/
+	padding: 0.4rem 0; /*Marges internes (2 valeurs = haut/bas et gauche/droite*/
+	text-align: center; /*Centrage du texte*/
+	background-color: #fffdfd; /*Couleur d'arrière plan*/
+	color: #000000; /*couleur du texte*/
+	text-decoration: none; /*Suppression des soulignements*/
+	border: 1px solid #fff; /*Ajout d'une bordure*/
+	border-radius: 4px; /*arrondis des bordures*/
+}
+/*Alignement horizontal des liens*/
+.menu
+{
+	display: flex; /*Transformation en flexbox*/
+	padding: 0; /*Suppression des marges internes*/
+	background-color:; /*Ajout de la couleur d'rrière plan*/
+	justify-content: center; /*Alignment des liens dans le menu*/
+}
+/*Ajouter un effet de survol*/
+.menu a:hover
+{
+	background-color: #ded0d8;
+	color: #ff4346;
+	border-color: #9c9a88;
+	border-color: #c62424;
+}
+/*Ajouter une transition pour avoir des effets de survol progressifs*/
+.menu a
+{
+	transition: all 1s; /*Ajout de seffets de transition*/
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper
+{
+	margin: 150px auto;
+	width: 70% ;
+}
+.text-box h2
+{
+	font-size: 60px;
+	letter-spacing: 0.5rem;
+}
+.text-box p
+{
+	font-size: 16px;
+	
+}
+img
+{
+	float: left;
+
+	margin-right: 18px;
+}
+.proprietes
+{
+	text-align: center;
+	font-size: 28px;
+
+}
+.villa
+{
+	height: 550px;
+	width: 1309px;
+	position: relative;
+	margin-left: 0px;
+}
+
+.text-over
+{
+	position: absolute;
+	left: 20%;
+	top: 10%;
+}
+
