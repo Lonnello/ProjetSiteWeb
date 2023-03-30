@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 
-
+.menu-acceuil
+ {
+	font-family: 'Alkatra', cursive;
+ }
+body
+{
+	font-family: 'Alkatra', cursive;
+}
 .menu
 {
 	display: flex; /*Transformation en flexbox*/
@@ -41,22 +49,20 @@
 /*Ajouter un effet de survol*/
 .menu a:hover
 {
-	background-color: #ded0d8;
-	color: #ff4346;
-	border-color: #9c9a88;
-	border-color: #c62424;
+
+	color: #919191;
+
 }
 /*Ajouter une transition pour avoir des effets de survol progressifs*/
 .menu a
 {
 	transition: all 1s; /*Ajout de seffets de transition*/
 }
-*
+.wrapper
 {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
 }
 .wrapper
 {
@@ -65,15 +71,15 @@
 }
 .text-box h2
 {
-	font-size: 60px;
-	letter-spacing: 0.5rem;
+	font-size: 45px;
+	letter-spacing: 0.2rem;
 }
 .text-box p
 {
 	font-size: 16px;
 	
 }
-img
+.container-site .wrapper img
 {
 	float: left;
 
@@ -97,6 +103,127 @@ img
 {
 	position: absolute;
 	left: 20%;
-	top: 10%;
+	top: 0%;
 }
+.container-site
+{
+
+
+}
+
+
+.session_2
+{
+    display :flex;
+    flex-wrap:wrap;
+}
+
+
+/* Css du footer*/
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+.body
+{
+    background-color:red ;
+
+    position: absolute;
+    font-family: 'Alkatra', cursive;
+    color:rgb(147, 150, 162);
+    font-weight: bold;
+	position: absolute;
+
+
+}
+
+form
+{
+    background-color:#193034;
+    padding: 30px;
+    border-radius: 50px;
+    width:920px;
+	justify-content: center;
+	
+
+}
+form h1
+{
+    font-size:20px;
+}
+form .separation
+{
+    width:100%;
+    height: 1px;
+    background-color:blueviolet;
+}
+form .corps-formulaire
+{
+    display :flex;
+    flex-wrap:wrap;
+    
+}
+form .corps-formulaire-droite
+{
+    display :flex;
+    flex-wrap:wrap;
+    
+}
+form .corps-formulaire .boite
+{
+    margin-top:20px;
+    margin-left:145px;
+}
+form .corps-formulaire .groupe_2 .boite-message
+{
+    margin-top:20px;
+    margin-left:5px;
+    height:100%;
+}
+form .corps-formulaire .droite .corps-formulaire-droite .groupe_1 input
+{
+    padding: 10px 5px 10px 15px;
+    border:1px solid #c9c9c9;
+    outline-color: red;
+    border-radius:5px;
+    background-color:#193034;
+    color:rgb(147, 150, 162);
+}
+form .corps-formulaire .droite .corps-formulaire-droite .groupe_2 textarea
+{
+    padding: 10px;
+    border:1px solid #c9c9c9;
+    outline-color: red;
+    border-radius:5px;
+    background-color:#193034;
+    color:rgb(147, 150, 162);
+    resize:none;
+    height:72%;
+}
+form .corps-formulaire .droite .corps-formulaire-droite .groupe_2 button
+{
+    margin-top:15px;
+    background-color:rgb(4, 4, 90);
+    color:rgb(255, 255, 255);
+    font-size:15px;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    outline:none;
+    cursor:pointer;
+    font-weight:1000;
+    transition: transform 0.5s;
+}
+form .corps-formulaire .droite .corps-formulaire-droite .groupe_2 button:hover
+{
+    transform:scale(1.05);
+}
+
+@media screen and (max-width:920px)
+{
+     form .corps-formulaire .boite
+    {
+    margin-top:20px;
+    margin-left:0px;
+    }
+}
+
 
