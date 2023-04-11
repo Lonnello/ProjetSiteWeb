@@ -3,6 +3,21 @@
 .menu-acceuil
  {
 	font-family: 'Alkatra', cursive;
+    background: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    position: sticky;
+ }
+ .menu-acceuil .menu-logo
+ {
+    margin-right: 80px;
+ }
+ .menu-logo
+ {
+    margin-left: 10px;
  }
 body
 {
@@ -58,6 +73,7 @@ body
 {
 	transition: all 1s; /*Ajout de seffets de transition*/
 }
+
 .wrapper
 {
 	margin: 0;
@@ -66,56 +82,61 @@ body
 }
 .wrapper
 {
-	margin: 150px auto;
+	margin: 150px 250px;
 	width: 70% ;
 }
+
 .text-box h2
 {
-	font-size: 45px;
+	font-size: 50px;
 	letter-spacing: 0.2rem;
+    margin-right: 300px;	
 }
 .text-box p
 {
 	font-size: 16px;
-	
+    margin-right: 300px;	
 }
-.container-site .wrapper img
+.wrapper .maison1
 {
 	float: left;
-
 	margin-right: 18px;
 }
+.wrapper .maison2
+{
+	float: right;
+	margin-right: 200px;
+}
+.text-maison2
+{
+	font-size: 16px;
+    margin-right: 1000px;	
+}
+.wrapper .maison3
+{
+	float: left;
+	margin-right: 18px;
+}
+
+
+
 .proprietes
 {
 	text-align: center;
 	font-size: 28px;
 
 }
-.villa
+.text-villa
 {
-	height: 550px;
+    background-image: url("../Images/villa.webp");
+	height: 750px;
 	width: 1309px;
-	position: relative;
-	margin-left: 0px;
 }
-
-.text-over
-{
-	position: absolute;
-	left: 20%;
-	top: 0%;
-}
-.container-site
-{
-
-
-}
-
-
 .session_2
 {
     display :flex;
     flex-wrap:wrap;
+    margin:150px 200px;
 }
 
 
@@ -198,7 +219,7 @@ form .corps-formulaire .droite .corps-formulaire-droite .groupe_2 textarea
     resize:none;
     height:72%;
 }
-form .corps-formulaire .droite .corps-formulaire-droite .groupe_2 button
+form .corps-formulaire .droite .corps-formulaire-droite .groupe_2 button, .button-a
 {
     margin-top:15px;
     background-color:rgb(4, 4, 90);
@@ -212,9 +233,11 @@ form .corps-formulaire .droite .corps-formulaire-droite .groupe_2 button
     font-weight:1000;
     transition: transform 0.5s;
 }
-form .corps-formulaire .droite .corps-formulaire-droite .groupe_2 button:hover
+form .corps-formulaire .droite .corps-formulaire-droite .groupe_2 button:hover, .button-a:hover
 {
     transform:scale(1.05);
+    background-color: #919191;
+
 }
 
 @media screen and (max-width:920px)

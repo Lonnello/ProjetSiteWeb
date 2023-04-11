@@ -1,0 +1,59 @@
+body
+{
+    font-family:verdana;
+}
+*
+{
+    margin :0;
+    padding : 0;
+}
+header, footer 
+{
+    position: absolute;
+    background-color: #000;
+    width :100%;
+    color: white;
+}
+header h2
+{
+    position : absolute;
+    margin-top: 20px;
+    left : 20%;
+    color: orange;
+}
+header
+{
+    height: 10vh;
+}
+footer
+{
+    height : 15vh;
+    bottom:0;
+}
+footer h2
+{
+    position: absolute;
+    left:45%;
+}
+.nav
+{
+    position:absolute;
+    width: 100%;
+}
+.nav a
+{
+    position: relative;
+    left: 45%;
+    margin-top: 20px;
+    top : 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+footer p
+{
+    position: absolute;
+    left: 48%;
+    bottom: 20px;
+    color: orange;
+}
